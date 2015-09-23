@@ -1,0 +1,16 @@
+{
+  "name": "Dr",
+  "version": "0.0.1",
+  "private" : "true",
+
+  "scripts": {
+    "test": "node test/test.js",
+    "start" : "node scraping.js"
+  },
+
+  "dependencies": {
+    "mysql": "latest",
+    "cheerio": "latest",
+    "request": "latest"
+  }
+}
